@@ -1,0 +1,27 @@
+{
+  "name": "ip-location",
+  "version": "1.0.0",
+  "description": "Getting a user's general location from their IP Adress",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samanimkr/ip-location.git"
+  },
+  "author": "Samani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samanimkr/ip-location/issues"
+  },
+  "homepage": "https://github.com/Samanimkr/ip-location#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ipware": "^1.0.0",
+    "iplocation": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
